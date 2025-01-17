@@ -4,112 +4,131 @@
 
 Before diving into React, ensure you are confident in:
 
-• HTML/CSS: Semantic tags, Flexbox, Grid, etc.
-• JavaScript (ES6+):
-• Variables (let, const)
-• Arrow functions
-• Template literals
-• Destructuring
-• Spread/rest operators
-• Promises and async/await
-• Modules and imports/exports
-• Basic Git/GitHub for version control.
+- HTML/CSS: Semantic tags, Flexbox, Grid, etc.
+- JavaScript (ES6+):
+- Variables (let, const)
+- Arrow functions
+- Template literals
+- Destructuring
+- Spread/rest operators
+- Promises and async/await
+- Modules and imports/exports
+- Basic Git/GitHub for version control.
 
 ## 2. Core React Concepts
 
 Start with the basics and build your foundation
 
-1. React Basics:
-   • What is React and why use it?
-   • Components
-   • JSX (JavaScript XML)
-   • Props and Prop Drilling
-   • State and State Management
+1. React Basics
 
-2. Hooks (Modern React):
+   - What is React and why use it?
+   - Components
+   - JSX (JavaScript XML)
+   - Props and Prop Drilling
+   - State and State Management
 
-• useState, useEffect, useContext
-• useRef, useReducer, useCallback, useMemo
+2. Hooks (Modern React)
 
-3. Component Lifecycle:
+- useState, useEffect, useContext
+- useRef, useReducer, useCallback, useMemo
 
-• Mounting, Updating, Unmounting
+3. Component Lifecycle
 
-4. Event Handling:
-   • onClick, onChange, onSubmit, etc.
+- Mounting, Updating, Unmounting
 
-5. Conditional Rendering:
-   • Ternary operators, short-circuit evaluation, etc.
+4. Event Handling
+
+- onClick, onChange, onSubmit, etc.
+
+5. Conditional Rendering
+
+- Ternary operators, short-circuit evaluation, etc.
 
 ## 3. Intermediate Topics
 
-1. Forms in React:
-   • Controlled and Uncontrolled Components
-   • Validation with libraries like Formik or React Hook Form
+1. Forms in React
 
-2. Routing:
-   • React Router (v6+)
-   • Nested Routes, Protected Routes
-   • Lazy Loading with React.Suspense
+- Controlled and Uncontrolled Components
+- Validation with libraries like Formik or React Hook Form
 
-3. State Management:
-   • Context API
-   • Redux Toolkit (preferred over legacy Redux)
-   • Zustand or Recoil (modern alternatives)
+2. Routing
+
+- React Router (v6+)
+- Nested Routes, Protected Routes
+- Lazy Loading with React.Suspense
+
+3. State Management
+
+- Context API
+- Redux Toolkit (preferred over legacy Redux)
+- Zustand or Recoil (modern alternatives)
 
 4. Error Handling:
-   • Error Boundaries
-   • Try/Catch for async operations
+
+- Error Boundaries
+- Try/Catch for async operations
 
 ## 4. Advanced React Concepts
 
-1. Performance Optimization:
-   • React.memo, useMemo, useCallback
-   • Code Splitting and Lazy Loading
+1. Performance Optimization
 
-2. Server-Side Rendering (SSR):
-   • Next.js for SSR and Static Site Generation (SSG)
+- React.memo, useMemo, useCallback
+- Code Splitting and Lazy Loading
 
-3. TypeScript with React:
-   • Props and State with TypeScript
-   • Generics and advanced types
+2. Server-Side Rendering (SSR)
 
-4. Testing:
-   • Unit Testing with Jest
-   • Component Testing with React Testing Library
-   • E2E Testing with Cypress or Playwright
+- Next.js for SSR and Static Site Generation (SSG)
 
-5. Animation Libraries:
-   • Framer Motion or React Spring
+3. TypeScript with React
+
+Props and State with TypeScript
+Generics and advanced types
+
+4. Testing
+
+Unit Testing with Jest
+Component Testing with React Testing Library
+E2E Testing with Cypress or Playwright
+
+5. Animation Libraries
+
+Framer Motion or React Spring
 
 ## 5. Ecosystem & Tools
 
-Master these tools and libraries to become an efficient ReactJS developer:
+Master these tools and libraries to become an efficient ReactJS developer
 
-1. Styling:
-   • CSS Modules
-   • Styled-Components
-   • Tailwind CSS
+1. Styling
 
-2. State Management:
-   • Redux Toolkit, Zustand, Recoil
+- CSS Modules
+- Styled-Components
+- Tailwind CSS
 
-3. API Calls:
-   • Axios or Fetch API
-   • SWR or React Query (for caching and data synchronization)
+2. State Management
 
-4. Form Libraries:
-   • Formik or React Hook Form
+- Redux Toolkit, Zustand, Recoil
 
-5. Next.js:
-   • Learn for SSR, SSG, API Routes, and more.
+3. API Calls
 
-6. Build Tools:
-   • Vite (modern alternative to CRA)
-   • Webpack (optional, for custom setups)
+- Axios or Fetch API
+- SWR or React Query (for caching and data synchronization)
 
-7. Deployment:
-   • Netlify, Vercel, or AWS Amplify
+4. Form Libraries
+
+- Formik or React Hook Form
+
+5. Next.js
+
+- Learn for SSR, SSG, API Routes, and more.
+
+6. Build Tools
+
+- Vite (modern alternative to CRA)
+- Webpack (optional, for custom setups)
+
+7. Deployment
+
+- Netlify, Vercel, or AWS Amplify
 
 ## 6. Soft Skills & Best Practices
 
@@ -123,9 +142,9 @@ Master these tools and libraries to become an efficient ReactJS developer:
 
 2. Soft Skills
 
-   • Communication: Explain your thought process clearly.
-   • Problem-solving: Debugging and finding solutions effectively.
-   • Collaboration: Work well with designers, backend developers, and QA teams.
+- Communication: Explain your thought process clearly.
+- Problem-solving: Debugging and finding solutions effectively.
+- Collaboration: Work well with designers, backend developers, and QA teams.
 
 ## 7. Building Projects
 
