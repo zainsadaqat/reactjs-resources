@@ -56,13 +56,112 @@
 - Reusable, generic UI components shared across the dashboard.
 - Header: Contains the top navigation bar.
 
-```Header.js:
-import React from 'react';
-import './Header.css';
+Header.js
+Sidebar.js
+A Card component
 
-function Header() {
-  return <header className="header">Dashboard Header</header>;
+## 3. features/
+
+Feature-specific components grouped by functionality.
+
+### Analytics
+
+- Handles data visualization and stats.
+- Example: Analytics.js shows graphs or tables.
+
+### UserManagement
+
+- Contains pages or components like UserList and UserDetails.
+
+### Settings
+
+- Manages user preferences, themes, etc.
+
+## 4. context/
+
+For managing global state with React Context API.
+
+```jsx
+import { createContext, useState } from "react";
+
+const ThemeContext = createContext();
+
+function ThemeProvider({ children }) {
+  const [theme, setTheme] = useState("light");
+
+  return (
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
 }
 
-export default Header;
+export { ThemeContext, ThemeProvider };
+```
+
+## 5. hooks/
+
+Custom hooks for reusable logic.
+
+useFetch.js
+
+```jsx
+import { useState, useEffect } from "react";
+
+function useFetch(url) {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => setData(data));
+  }, [url]);
+
+  return data;
+}
+
+export default useFetch;
+```
+
+## 6. layout/
+
+Defines the main layout of the dashboard.
+
+```jsx
+import React from "react";
+import Header from "../components/Header";
+import Sidebar from "../components/Sidebar";
+
+function DashboardLayout({ children }) {
+  return (
+    <div className="dashboard-layout">
+      <Header />
+      <Sidebar />
+      <main>{children}</main>
+    </div>
+  );
+}
+
+export default DashboardLayout;
+```
+
+## 7. services/
+
+For API Integration
+
+```jsx
+export const getUsers = async () => {
+  const response = await fetch("/api/users");
+  return response.json();
+};
+```
+
+## 8. utils/
+
+Utility or Helper functions for common tasks.
+
+```jsx
+export const calculateAverage = (numbers) => {
+  return numbers.reduce((a, b) => a + b, 0) / numbers.length;
+};
 ```
